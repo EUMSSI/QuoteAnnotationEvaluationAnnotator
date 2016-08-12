@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Aug 10 13:32:38 CEST 2016 */
+/* First created by JCasGen Fri Aug 12 14:06:18 CEST 2016 */
 package com.iai.jcas.tcas;
 
 import org.apache.uima.jcas.JCas;
@@ -14,9 +14,9 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** 
- * Updated by JCasGen Wed Aug 10 13:32:38 CEST 2016
+ * Updated by JCasGen Fri Aug 12 14:07:51 CEST 2016
  * @generated */
-public class QuoteEvaulationAnnotation_Type extends Annotation_Type {
+public class QuoteEvaluationAnnotation_Type extends Annotation_Type {
   /** @generated 
    * @return the generator for this type
    */
@@ -26,25 +26,25 @@ public class QuoteEvaulationAnnotation_Type extends Annotation_Type {
   private final FSGenerator fsGenerator = 
     new FSGenerator() {
       public FeatureStructure createFS(int addr, CASImpl cas) {
-  			 if (QuoteEvaulationAnnotation_Type.this.useExistingInstance) {
+  			 if (QuoteEvaluationAnnotation_Type.this.useExistingInstance) {
   			   // Return eq fs instance if already created
-  		     FeatureStructure fs = QuoteEvaulationAnnotation_Type.this.jcas.getJfsFromCaddr(addr);
+  		     FeatureStructure fs = QuoteEvaluationAnnotation_Type.this.jcas.getJfsFromCaddr(addr);
   		     if (null == fs) {
-  		       fs = new QuoteEvaulationAnnotation(addr, QuoteEvaulationAnnotation_Type.this);
-  			   QuoteEvaulationAnnotation_Type.this.jcas.putJfsFromCaddr(addr, fs);
+  		       fs = new QuoteEvaluationAnnotation(addr, QuoteEvaluationAnnotation_Type.this);
+  			   QuoteEvaluationAnnotation_Type.this.jcas.putJfsFromCaddr(addr, fs);
   			   return fs;
   		     }
   		     return fs;
-        } else return new QuoteEvaulationAnnotation(addr, QuoteEvaulationAnnotation_Type.this);
+        } else return new QuoteEvaluationAnnotation(addr, QuoteEvaluationAnnotation_Type.this);
   	  }
     };
   /** @generated */
   @SuppressWarnings ("hiding")
-  public final static int typeIndexID = QuoteEvaulationAnnotation.typeIndexID;
+  public final static int typeIndexID = QuoteEvaluationAnnotation.typeIndexID;
   /** @generated 
      @modifiable */
   @SuppressWarnings ("hiding")
-  public final static boolean featOkTst = JCasRegistry.getFeatOkTst("com.iai.jcas.tcas.QuoteEvaulationAnnotation");
+  public final static boolean featOkTst = JCasRegistry.getFeatOkTst("com.iai.jcas.tcas.QuoteEvaluationAnnotation");
  
   /** @generated */
   final Feature casFeat_Precision;
@@ -56,7 +56,7 @@ public class QuoteEvaulationAnnotation_Type extends Annotation_Type {
    */ 
   public double getPrecision(int addr) {
         if (featOkTst && casFeat_Precision == null)
-      jcas.throwFeatMissing("Precision", "com.iai.jcas.tcas.QuoteEvaulationAnnotation");
+      jcas.throwFeatMissing("Precision", "com.iai.jcas.tcas.QuoteEvaluationAnnotation");
     return ll_cas.ll_getDoubleValue(addr, casFeatCode_Precision);
   }
   /** @generated
@@ -65,7 +65,7 @@ public class QuoteEvaulationAnnotation_Type extends Annotation_Type {
    */    
   public void setPrecision(int addr, double v) {
         if (featOkTst && casFeat_Precision == null)
-      jcas.throwFeatMissing("Precision", "com.iai.jcas.tcas.QuoteEvaulationAnnotation");
+      jcas.throwFeatMissing("Precision", "com.iai.jcas.tcas.QuoteEvaluationAnnotation");
     ll_cas.ll_setDoubleValue(addr, casFeatCode_Precision, v);}
     
   
@@ -80,7 +80,7 @@ public class QuoteEvaulationAnnotation_Type extends Annotation_Type {
    */ 
   public double getRecall(int addr) {
         if (featOkTst && casFeat_Recall == null)
-      jcas.throwFeatMissing("Recall", "com.iai.jcas.tcas.QuoteEvaulationAnnotation");
+      jcas.throwFeatMissing("Recall", "com.iai.jcas.tcas.QuoteEvaluationAnnotation");
     return ll_cas.ll_getDoubleValue(addr, casFeatCode_Recall);
   }
   /** @generated
@@ -89,7 +89,7 @@ public class QuoteEvaulationAnnotation_Type extends Annotation_Type {
    */    
   public void setRecall(int addr, double v) {
         if (featOkTst && casFeat_Recall == null)
-      jcas.throwFeatMissing("Recall", "com.iai.jcas.tcas.QuoteEvaulationAnnotation");
+      jcas.throwFeatMissing("Recall", "com.iai.jcas.tcas.QuoteEvaluationAnnotation");
     ll_cas.ll_setDoubleValue(addr, casFeatCode_Recall, v);}
     
   
@@ -104,7 +104,7 @@ public class QuoteEvaulationAnnotation_Type extends Annotation_Type {
    */ 
   public double getF1Score(int addr) {
         if (featOkTst && casFeat_F1Score == null)
-      jcas.throwFeatMissing("F1Score", "com.iai.jcas.tcas.QuoteEvaulationAnnotation");
+      jcas.throwFeatMissing("F1Score", "com.iai.jcas.tcas.QuoteEvaluationAnnotation");
     return ll_cas.ll_getDoubleValue(addr, casFeatCode_F1Score);
   }
   /** @generated
@@ -113,7 +113,7 @@ public class QuoteEvaulationAnnotation_Type extends Annotation_Type {
    */    
   public void setF1Score(int addr, double v) {
         if (featOkTst && casFeat_F1Score == null)
-      jcas.throwFeatMissing("F1Score", "com.iai.jcas.tcas.QuoteEvaulationAnnotation");
+      jcas.throwFeatMissing("F1Score", "com.iai.jcas.tcas.QuoteEvaluationAnnotation");
     ll_cas.ll_setDoubleValue(addr, casFeatCode_F1Score, v);}
     
   
@@ -125,7 +125,7 @@ public class QuoteEvaulationAnnotation_Type extends Annotation_Type {
 	 * @param jcas JCas
 	 * @param casType Type 
 	 */
-  public QuoteEvaulationAnnotation_Type(JCas jcas, Type casType) {
+  public QuoteEvaluationAnnotation_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());
 

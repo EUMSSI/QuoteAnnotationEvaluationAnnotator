@@ -6,7 +6,7 @@
     <vendor/>
   <types>
     <typeDescription>
-      <name>com.iai.jcas.tcas.QuoteEvaulationAnnotation</name>
+      <name>com.iai.jcas.tcas.QuoteEvaluationAnnotation</name>
       <description/>
       <supertypeName>uima.tcas.Annotation</supertypeName>
       <features>
