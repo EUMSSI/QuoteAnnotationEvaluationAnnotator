@@ -1,7 +1,7 @@
 
 
 /* First created by JCasGen Fri Aug 12 14:06:18 CEST 2016 */
-package com.iai.jcas.tcas;
+package com.iai.uima.jcas.tcas;
 
 import org.apache.uima.jcas.JCas; 
 import org.apache.uima.jcas.JCasRegistry;
@@ -11,7 +11,7 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** 
- * Updated by JCasGen Fri Aug 12 14:07:50 CEST 2016
+ * Updated by JCasGen Fri Aug 12 14:14:32 CEST 2016
  * XML source: D:/merlin/GitHub/QuoteEvaluationAnnotator/src/main/resources/com/iai/uima/jcas/tcas/QuoteEvaluationTypeSystem.xml
  * @generated */
 public class QuoteEvaluationAnnotation extends Annotation {
@@ -85,7 +85,7 @@ public class QuoteEvaluationAnnotation extends Annotation {
    */
   public double getPrecision() {
     if (QuoteEvaluationAnnotation_Type.featOkTst && ((QuoteEvaluationAnnotation_Type)jcasType).casFeat_Precision == null)
-      jcasType.jcas.throwFeatMissing("Precision", "com.iai.jcas.tcas.QuoteEvaluationAnnotation");
+      jcasType.jcas.throwFeatMissing("Precision", "com.iai.uima.jcas.tcas.QuoteEvaluationAnnotation");
     return jcasType.ll_cas.ll_getDoubleValue(addr, ((QuoteEvaluationAnnotation_Type)jcasType).casFeatCode_Precision);}
     
   /** setter for Precision - sets  
@@ -94,7 +94,7 @@ public class QuoteEvaluationAnnotation extends Annotation {
    */
   public void setPrecision(double v) {
     if (QuoteEvaluationAnnotation_Type.featOkTst && ((QuoteEvaluationAnnotation_Type)jcasType).casFeat_Precision == null)
-      jcasType.jcas.throwFeatMissing("Precision", "com.iai.jcas.tcas.QuoteEvaluationAnnotation");
+      jcasType.jcas.throwFeatMissing("Precision", "com.iai.uima.jcas.tcas.QuoteEvaluationAnnotation");
     jcasType.ll_cas.ll_setDoubleValue(addr, ((QuoteEvaluationAnnotation_Type)jcasType).casFeatCode_Precision, v);}    
    
     
@@ -107,7 +107,7 @@ public class QuoteEvaluationAnnotation extends Annotation {
    */
   public double getRecall() {
     if (QuoteEvaluationAnnotation_Type.featOkTst && ((QuoteEvaluationAnnotation_Type)jcasType).casFeat_Recall == null)
-      jcasType.jcas.throwFeatMissing("Recall", "com.iai.jcas.tcas.QuoteEvaluationAnnotation");
+      jcasType.jcas.throwFeatMissing("Recall", "com.iai.uima.jcas.tcas.QuoteEvaluationAnnotation");
     return jcasType.ll_cas.ll_getDoubleValue(addr, ((QuoteEvaluationAnnotation_Type)jcasType).casFeatCode_Recall);}
     
   /** setter for Recall - sets  
@@ -116,7 +116,7 @@ public class QuoteEvaluationAnnotation extends Annotation {
    */
   public void setRecall(double v) {
     if (QuoteEvaluationAnnotation_Type.featOkTst && ((QuoteEvaluationAnnotation_Type)jcasType).casFeat_Recall == null)
-      jcasType.jcas.throwFeatMissing("Recall", "com.iai.jcas.tcas.QuoteEvaluationAnnotation");
+      jcasType.jcas.throwFeatMissing("Recall", "com.iai.uima.jcas.tcas.QuoteEvaluationAnnotation");
     jcasType.ll_cas.ll_setDoubleValue(addr, ((QuoteEvaluationAnnotation_Type)jcasType).casFeatCode_Recall, v);}    
    
     
@@ -129,7 +129,7 @@ public class QuoteEvaluationAnnotation extends Annotation {
    */
   public double getF1Score() {
     if (QuoteEvaluationAnnotation_Type.featOkTst && ((QuoteEvaluationAnnotation_Type)jcasType).casFeat_F1Score == null)
-      jcasType.jcas.throwFeatMissing("F1Score", "com.iai.jcas.tcas.QuoteEvaluationAnnotation");
+      jcasType.jcas.throwFeatMissing("F1Score", "com.iai.uima.jcas.tcas.QuoteEvaluationAnnotation");
     return jcasType.ll_cas.ll_getDoubleValue(addr, ((QuoteEvaluationAnnotation_Type)jcasType).casFeatCode_F1Score);}
     
   /** setter for F1Score - sets  
@@ -138,7 +138,7 @@ public class QuoteEvaluationAnnotation extends Annotation {
    */
   public void setF1Score(double v) {
     if (QuoteEvaluationAnnotation_Type.featOkTst && ((QuoteEvaluationAnnotation_Type)jcasType).casFeat_F1Score == null)
-      jcasType.jcas.throwFeatMissing("F1Score", "com.iai.jcas.tcas.QuoteEvaluationAnnotation");
+      jcasType.jcas.throwFeatMissing("F1Score", "com.iai.uima.jcas.tcas.QuoteEvaluationAnnotation");
     jcasType.ll_cas.ll_setDoubleValue(addr, ((QuoteEvaluationAnnotation_Type)jcasType).casFeatCode_F1Score, v);}    
   }
 

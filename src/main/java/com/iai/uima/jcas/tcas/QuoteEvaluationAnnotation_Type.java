@@ -1,6 +1,6 @@
 
 /* First created by JCasGen Fri Aug 12 14:06:18 CEST 2016 */
-package com.iai.jcas.tcas;
+package com.iai.uima.jcas.tcas;
 
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.JCasRegistry;
@@ -14,7 +14,7 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** 
- * Updated by JCasGen Fri Aug 12 14:07:51 CEST 2016
+ * Updated by JCasGen Fri Aug 12 14:14:32 CEST 2016
  * @generated */
 public class QuoteEvaluationAnnotation_Type extends Annotation_Type {
   /** @generated 
@@ -44,7 +44,7 @@ public class QuoteEvaluationAnnotation_Type extends Annotation_Type {
   /** @generated 
      @modifiable */
   @SuppressWarnings ("hiding")
-  public final static boolean featOkTst = JCasRegistry.getFeatOkTst("com.iai.jcas.tcas.QuoteEvaluationAnnotation");
+  public final static boolean featOkTst = JCasRegistry.getFeatOkTst("com.iai.uima.jcas.tcas.QuoteEvaluationAnnotation");
  
   /** @generated */
   final Feature casFeat_Precision;
@@ -56,7 +56,7 @@ public class QuoteEvaluationAnnotation_Type extends Annotation_Type {
    */ 
   public double getPrecision(int addr) {
         if (featOkTst && casFeat_Precision == null)
-      jcas.throwFeatMissing("Precision", "com.iai.jcas.tcas.QuoteEvaluationAnnotation");
+      jcas.throwFeatMissing("Precision", "com.iai.uima.jcas.tcas.QuoteEvaluationAnnotation");
     return ll_cas.ll_getDoubleValue(addr, casFeatCode_Precision);
   }
   /** @generated
@@ -65,7 +65,7 @@ public class QuoteEvaluationAnnotation_Type extends Annotation_Type {
    */    
   public void setPrecision(int addr, double v) {
         if (featOkTst && casFeat_Precision == null)
-      jcas.throwFeatMissing("Precision", "com.iai.jcas.tcas.QuoteEvaluationAnnotation");
+      jcas.throwFeatMissing("Precision", "com.iai.uima.jcas.tcas.QuoteEvaluationAnnotation");
     ll_cas.ll_setDoubleValue(addr, casFeatCode_Precision, v);}
     
   
@@ -80,7 +80,7 @@ public class QuoteEvaluationAnnotation_Type extends Annotation_Type {
    */ 
   public double getRecall(int addr) {
         if (featOkTst && casFeat_Recall == null)
-      jcas.throwFeatMissing("Recall", "com.iai.jcas.tcas.QuoteEvaluationAnnotation");
+      jcas.throwFeatMissing("Recall", "com.iai.uima.jcas.tcas.QuoteEvaluationAnnotation");
     return ll_cas.ll_getDoubleValue(addr, casFeatCode_Recall);
   }
   /** @generated
@@ -89,7 +89,7 @@ public class QuoteEvaluationAnnotation_Type extends Annotation_Type {
    */    
   public void setRecall(int addr, double v) {
         if (featOkTst && casFeat_Recall == null)
-      jcas.throwFeatMissing("Recall", "com.iai.jcas.tcas.QuoteEvaluationAnnotation");
+      jcas.throwFeatMissing("Recall", "com.iai.uima.jcas.tcas.QuoteEvaluationAnnotation");
     ll_cas.ll_setDoubleValue(addr, casFeatCode_Recall, v);}
     
   
@@ -104,7 +104,7 @@ public class QuoteEvaluationAnnotation_Type extends Annotation_Type {
    */ 
   public double getF1Score(int addr) {
         if (featOkTst && casFeat_F1Score == null)
-      jcas.throwFeatMissing("F1Score", "com.iai.jcas.tcas.QuoteEvaluationAnnotation");
+      jcas.throwFeatMissing("F1Score", "com.iai.uima.jcas.tcas.QuoteEvaluationAnnotation");
     return ll_cas.ll_getDoubleValue(addr, casFeatCode_F1Score);
   }
   /** @generated
@@ -113,7 +113,7 @@ public class QuoteEvaluationAnnotation_Type extends Annotation_Type {
    */    
   public void setF1Score(int addr, double v) {
         if (featOkTst && casFeat_F1Score == null)
-      jcas.throwFeatMissing("F1Score", "com.iai.jcas.tcas.QuoteEvaluationAnnotation");
+      jcas.throwFeatMissing("F1Score", "com.iai.uima.jcas.tcas.QuoteEvaluationAnnotation");
     ll_cas.ll_setDoubleValue(addr, casFeatCode_F1Score, v);}
     
   

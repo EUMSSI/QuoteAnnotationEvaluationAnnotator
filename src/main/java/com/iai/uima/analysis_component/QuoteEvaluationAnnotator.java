@@ -18,8 +18,8 @@ import org.apache.uima.fit.util.JCasUtil;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.resource.ResourceInitializationException;
 
-import com.iai.jcas.tcas.QuoteEvaluationAnnotation;
 import com.iai.uima.jcas.tcas.QuoteAnnotation;
+import com.iai.uima.jcas.tcas.QuoteEvaluationAnnotation;
 
 import de.tudarmstadt.ukp.dkpro.core.api.metadata.type.DocumentMetaData;
 
