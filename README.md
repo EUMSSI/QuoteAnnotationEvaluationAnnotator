@@ -1,0 +1,2 @@
+# QuoteAnnotationEvaluationAnnotator
+Calculates statistical measures over QuoteAnnotations
